@@ -1,0 +1,68 @@
+
+.chart {
+}
+
+.main text {
+  font: 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  fill: #999;
+}
+
+.main .label {
+  font-size:14px;
+}
+
+.axis line, .axis path {
+  shape-rendering: crispEdges;
+  stroke: #d0d0d0;
+  fill: none;
+}
+
+circle {
+  fill: none;
+}
+
+.extent {
+  fill: #000;
+  fill-opacity: .125;
+  stroke: #fff;
+}
+circle.hidden {
+  fill: #ccc !important;
+}
+circle.selected{
+  /*fill: gray !important;*/
+  stroke-width: 3px !important;
+}
+
+.plotarea .refline {
+  stroke: #d0d0d0;
+  stroke-width:1px;
+}
+
+.plotarea .regline {
+  stroke-width:1px;
+  opacity: 0.5;
+}
+
+.plotarea .ref.label {
+  font-size:10px;
+}
+
+.overlay {
+  fill: none;
+  pointer-events: all;
+}
+
+.main.axis text {
+  font-size:10px;
+}
+
+.main .plotarea .timeline {
+  fill: #007aff;
+  fill-opacity: .6;
+}
+
+.scatterplot .filterInfoDiv {
+  display:none;
+}
